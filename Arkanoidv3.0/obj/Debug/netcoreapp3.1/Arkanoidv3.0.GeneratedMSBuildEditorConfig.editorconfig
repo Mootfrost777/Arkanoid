@@ -1,0 +1,9 @@
+is_global = true
+build_property.ApplicationManifest = app.manifest
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
+build_property.RootNamespace = Arkanoidv3.0
+build_property.ProjectDir = C:\Users\Semejkin_AV\Downloads\Arkanoidv3.0\Arkanoidv3.0\Arkanoidv3.0\
