@@ -4,23 +4,23 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/Background.jpg</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/Ball.png</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/Brick.png</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/cube2.png</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/Explosion.wav</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/Explosion2.wav</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/Explosion3.wav</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/GameFont.spritefont</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/GameOver.wav</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/GameOverFont.spritefont</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/MainSong.mp3</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/MenuSong.wav</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/newfon3.jpg</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/Platform.jpg</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/PlatformCollide.wav</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/Select.wav</File>
-    <File>C:/Users/Semejkin_AV/Downloads/Arkanoidv3.0/Arkanoidv3.0/Arkanoidv3.0/Content/sky.jpg</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/Background.jpg</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/Ball.png</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/Brick.png</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/cube2.png</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/Explosion.wav</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/Explosion2.wav</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/Explosion3.wav</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/GameFont.spritefont</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/GameOver.wav</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/GameOverFont.spritefont</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/MainSong.mp3</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/MenuSong.wav</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/newfon3.jpg</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/Platform.jpg</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/PlatformCollide.wav</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/Select.wav</File>
+    <File>C:/Users/Anndr/Documents/GitHub/Arkanoid/Arkanoidv3.0/Content/sky.jpg</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

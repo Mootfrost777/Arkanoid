@@ -6,8 +6,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Media;
-using MonoGame_Textbox;
-using MonoGame_Test;
+//using MonoGame_Textbox;
+//using MonoGame_Test;
 using Microsoft.Xna.Framework.Content;
 
 namespace Arkanoid.Classes

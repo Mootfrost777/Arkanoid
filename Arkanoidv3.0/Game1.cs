@@ -9,8 +9,8 @@ using System.IO;
 using System;
 using System.Linq;
 
-using MonoGame_Textbox;
-using MonoGame_Test;
+//using MonoGame_Textbox;
+//using MonoGame_Test;
 
 namespace Arkanoid
 {
@@ -26,7 +26,7 @@ namespace Arkanoid
             "complete ten levels using the platform \n" +
             "to control the ball!",
             new Vector2(0, 100), Color.Yellow);
-        public static GameState gameState = GameState.NameEnter;
+        public static GameState gameState = GameState.Menu;
         public GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         public string f;
@@ -49,7 +49,7 @@ namespace Arkanoid
         public Song song;
         NameEnter nameEnter = new NameEnter();
         History history = new History();
-        public TextBox textBox;
+        //public TextBox textBox;
         public SpriteFont font;
         public Rectangle viewport;
         public static bool isBoss = false;
@@ -65,7 +65,7 @@ namespace Arkanoid
             _graphics.PreferredBackBufferHeight = 600;
             f = score.ToString();
             lab1 = new Label("Score " + f, new Vector2(0, 50), Color.Yellow);
-            MonoGame_Textbox.KeyboardInput.Initialize(this, 500f, 20);
+            //MonoGame_Textbox.KeyboardInput.Initialize(this, 500f, 20);
            // _graphics.IsFullScreen = true;
         }
 
@@ -107,21 +107,21 @@ namespace Arkanoid
             MediaPlayer.MediaStateChanged += MediaPlayer_MediaStateChanged;
             font = Content.Load<SpriteFont>("GameFont");
             viewport = new Rectangle(280, 200, 200, 100);
-            textBox = new TextBox(viewport, 30, "", GraphicsDevice, font, Color.White, Color.DarkGreen, 30);
-            textBox.EnterDown += Enter;
-            textBox.Active = true;
+            //textBox = new TextBox(viewport, 30, "", GraphicsDevice, font, Color.White, Color.DarkGreen, 30);
+            //textBox.EnterDown += Enter;
+            //textBox.Active = true;
         }
         void MediaPlayer_MediaStateChanged(object sender, System.EventArgs e)
         {
             MediaPlayer.Volume = 40;
         }
 
-        private void Enter(object sender, MonoGame_Textbox.KeyboardInput.KeyEventArgs e)
+        private void Enter(object sender/*, MonoGame_Textbox.KeyboardInput.KeyEventArgs */)
         {
-            name = textBox.Text.String;
+            //name = textBox.Text.String;
             er.Text = "Your name: " + name;
             gameState = GameState.Menu;
-            textBox.Active = false;
+            //textBox.Active = false;
             menu.prevKeyboard = Keyboard.GetState();
         }
 
@@ -143,7 +143,7 @@ namespace Arkanoid
                     // gameover.Update(_spriteBatch);
                     break;
                 case GameState.Menu:
-                    MonoGame_Textbox.KeyboardInput.Update();
+                    //MonoGame_Textbox.KeyboardInput.Update();
                     background.Update();
                     menu.Update(song);
                     break;
@@ -162,8 +162,8 @@ namespace Arkanoid
                     break;
                 case GameState.NameEnter:
                     background.Update();
-                    MonoGame_Textbox.KeyboardInput.Update();
-                    textBox.Update();
+                    //MonoGame_Textbox.KeyboardInput.Update();
+                    //textBox.Update();
                     break;
                 case GameState.History:
                     background.Update();
@@ -248,9 +248,9 @@ namespace Arkanoid
                     break;
                 case GameState.NameEnter:
                     background.Draw(_spriteBatch);
-                    textBox.Draw(_spriteBatch);
+                    //textBox.Draw(_spriteBatch);
                     yourname.Draw(_spriteBatch);
-                    _spriteBatch.DrawRectangle(viewport, Color.Red, 1f, 1f);
+                    //_spriteBatch.DrawRectangle(viewport, Color.Red, 1f, 1f);
                     break;
                 case GameState.History:
                     background.Draw(_spriteBatch);
